@@ -1,0 +1,177 @@
+body {
+   background: linear-gradient(122.28deg, #0470DC 44.98%, rgb(19, 241, 252) 52.72%);
+}
+
+body::before {
+   background: #0009;
+   bottom: 0;
+   position: fixed;
+  content: " ";
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#page-create-point {
+   width: 90%;
+   max-width: 1100px;
+
+   margin: 0 auto;
+}
+
+#page-create-point header {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   align-items: center;
+
+   margin-top: 48px;
+}
+
+#page-create-point header a {
+   color: var(--title-color);
+   font-weight: bold;
+
+   display: flex;
+   align-items: center;
+}
+
+#page-create-point header a span {
+   margin-right: 16px;
+   background-image: url('../assets/icones/arrow-left.svg');
+
+   display: flex;
+
+   width: 20px;
+   height: 20px;
+}
+
+#page-create-point form {
+   background: #f0f0f51c;
+
+   margin: 80px auto;
+   padding: 64px;
+
+   border-radius: 8px;
+
+   max-width: 730px;
+}
+
+form h1 {
+   font-size: 36px;
+   color: #FFF;
+}
+
+form fieldset {
+   margin-top: 64px;
+
+   border: none;
+}
+
+form legend {
+   margin-bottom: 48px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   width: 100%;
+}
+
+form legend h2 {
+   font-size: 24px;
+   color: #FFF;
+}
+
+form legend span {
+   color: #FFF;
+}
+
+form .field {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+
+   margin-bottom: 24px;
+}
+
+form .field-group {
+   display: flex;
+}
+
+form input,
+form select {
+   background: #f0f0f5;
+
+   border: none;
+   padding: 16px 24px;
+   font-size: 16px;
+   font-weight: bold;
+
+   border-radius: 8px;
+}
+
+form select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+form label {
+   font-size: 14px;
+   margin-bottom: 8px;
+
+   color: #FFF;
+}
+
+form .field-group .field + .field {
+   margin-left: 24px;
+}
+
+/*fieldset coleta Grid*/
+form .itens-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+   gap: 16px;
+}
+
+.itens-grid li {
+   background-color: #f5f5f5;
+   list-style: none;
+
+   border: 2px solid #f5f5f5;
+   border-radius: 50%;
+
+   height: 180px;
+   padding: 32px 24px 16px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+   text-align: center;
+   cursor: pointer;
+}
+
+.itens-grid li span {
+   margin-top: 12px;
+   flex: 1;
+
+   display: flex;
+   align-items: center;
+
+   color: var(--title-escuro);
+}
+
+.itens-grid li.selected {
+   background: #a5efc5;
+   border: 2px solid #34cb79;
+}
+
+.itens-grid li img,
+.itens-grid li span {
+   pointer-events: none;
+}

@@ -1,0 +1,99 @@
+.main-btn {
+   width: 100%;
+   max-width: 360px;
+   height: 72px;
+
+   background: linear-gradient(29.83deg, #2fb86e 0%, #36ee89 100%);
+   
+   border: 2px solid rgba(19, 241, 252, 0.5);
+   border-radius: 31px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+
+   color: #FFF;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: bottom 0.1s linear;
+
+   outline: none;
+}
+
+.main-btn:hover {
+   /* bottom: 5px; */
+   box-shadow: 0 18px 40px 0 #36ee89;
+   background: linear-gradient(29.83deg, #2fb86e 0%, #36ee89 100%);
+   color: #fff;
+}
+
+@-webkit-keyframes hvr-pulse {
+   25% {
+       -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+   }
+
+   75% {
+       -webkit-transform: scale(0.9);
+       transform: scale(0.9);
+   }
+}
+
+@keyframes hvr-pulse {
+   25% {
+       -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+   }
+
+   75% {
+       -webkit-transform: scale(0.9);
+       transform: scale(0.9);
+   }
+}
+
+.hvr-pulse {
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pulse:hover,
+.hvr-pulse:focus,
+.hvr-pulse:active {
+   -webkit-animation-name: hvr-pulse;
+   animation-name: hvr-pulse;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+#page-home main a span {
+   margin-left: 7px;
+   width: 80px;
+   height: 60px;
+   border-radius: 26px;
+   background-color: rgba(0, 0, 0, 0.08);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#page-home main a span::after {
+   content: "";
+   background-image: url(../assets/icones/search.svg);
+
+   width: 20px;
+   height: 20px;
+}
+
+#page-home main a strong {
+   flex: 1;
+   color: white;
+   text-align: center;
+}

@@ -1,0 +1,120 @@
+#modal {
+   background-color: #0e0a14ef;
+
+   height: 100vh;
+   width: 100vw;
+
+   position: fixed;
+   top: 0;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ 
+   transition: 400ms;
+}
+
+#modal.hide {
+   display: none;
+}
+
+#modal .content {
+   color: white;
+
+   width: 420px;
+}
+#modal .header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   margin-bottom: 48px;
+}
+
+#modal  .header a {
+   background-image: url('../assets/icones/x.svg');
+   background-repeat: no-repeat;
+
+   width: 20px;
+   height: 20px;
+
+   display: flex;
+
+   font-size: 0.01px;
+}
+
+#modal .header h1 {
+   color: white;
+   font-size: 36px;
+
+   line-height: 42px;
+}
+
+#modal form label {
+   font-size: 0.01px;
+   line-height: 16px;
+
+   display: block;
+
+   margin-bottom: 8px;
+}
+
+#modal form .field {
+   display: flex;
+}
+
+#modal form input {
+   flex: 1;
+
+   background-color: #f0f0f5;
+
+   border-radius: 31px 0 0 31px;
+   border: none;
+
+   padding: 16px 24px;
+
+   font-size: 18px;
+   color: #6c6c80;
+
+   outline: none;
+}
+
+#modal form input:focus {
+   border: 2px solid #34cb79;
+}
+
+#modal form button {
+   width: 72px;
+   height: 72px;
+
+   background-color: var(--primary-color);
+
+   border-radius: 0 31px 31px 0;
+
+   border: none;
+
+   cursor: pointer;
+
+   outline: none;
+}
+
+#modal form button:hover {
+   background-color: #2fb86e;
+}
+
+/* cadastro concluido */
+#modal.point .content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#modal.point h1 {
+   margin-top: 24px;
+   font-family: Roboto, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   line-height: 42px;;
+   font-size: 36px;
+}

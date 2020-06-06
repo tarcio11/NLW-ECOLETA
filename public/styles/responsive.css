@@ -1,0 +1,51 @@
+@media (min-width: 1366px){
+   #page-home {
+     background-size: 50%; 
+     background-position: 40vw bottom; 
+   }
+ }
+@media (min-width: 900px){
+   #page-home {
+     background-size: 50%; 
+     background-position: 540px 170px;
+   }
+ }
+
+@media (max-width: 900px) {
+   #page-home {
+      background-position-x: 70vw;
+   }
+
+   #page-home .content {
+      align-items: center;
+      text-align: center;
+   }
+
+   #page-home header a {
+      position: absolute;
+      bottom: 48px;
+
+      left: 50%;
+      transform: translateX(-50%);
+   }
+
+   #page-home main {
+      align-items: center;
+   }
+}
+
+@media (max-width: 830px) {
+#page-create-point   form .field-group {
+   flex-direction: column;
+}
+
+#page-create-point   form .field-group .field + .field {
+   margin-left: 0;
+}
+}
+
+@media (max-width: 690px) {
+   #page-create-point form .itens-grid {
+      grid-template-columns: 1fr 1fr;
+   }  
+}
