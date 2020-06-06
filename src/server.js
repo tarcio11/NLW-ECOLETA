@@ -98,7 +98,4 @@ server.get('/search', (req, res) => {
 })
 
 // Ligar nosso servidor
-var port = process.env.PORT || 3000;
-app.listen(port, function () {
-    console.log('Umbler listening on port %s', port);
-});
+server.listen(3000)
