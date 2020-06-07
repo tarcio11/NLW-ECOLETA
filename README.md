@@ -16,7 +16,7 @@ A NLW é uma experiência online criada pela Rocketseat de uma semana com muito 
 O Ecoleta é um projeto criado para gerenciar o processo de coleta de lixo nas cidades. Com ele, é possível ajudar pessoas a encontrarem pontos de coleta de uma forma mais eficiente.
   
 ### 👀 Meu aprendizado até aqui:
-(Finalizado!!) - Projeto finalizado da NLW, onde desenvolvemos uma aplicação do zero até (Front-End e Back-End), nessa semana de aprendizado, eu conseguir colocar em práticas vários conceitos de programação com js, também conseguir aprimorar minhas habilidades com HTML e CSS, onde pude revisar conceitos básicos e colocá-los em prática novamente. Tive oportunidade de tirar dúvidas com outros devs que participaram do evento, compartilhar conhecimentos, ideias, etc.
+(Finalizado!!) - Projeto finalizado da NLW, onde desenvolvemos uma aplicação do zero até (Front-End e Back-End), nessa semana de aprendizado, eu conseguir colocar em práticas vários conceitos de programação com js, também conseguir aprimorar minhas habilidades com HTML e CSS, onde pude revisar conceitos básicos e colocá-los em prática novamente. Tive oportunidade de tirar dúvidas com outros devs que participaram do evento, compartilhar conhecimentos, ideias, etc..
 
 
 <h2 align="center"> 📷 Screenshot da home page do projeto: </h2>
